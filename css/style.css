@@ -34,6 +34,10 @@ nav{
     text-align: center;
 }
 
+.logo{
+    margin-bottom: 20px;
+}
+
 .logo:hover{
     transform: scale(1.3);
 }
@@ -41,7 +45,7 @@ nav{
 .about{
     padding: 100px 100px 100px 100px;
     background-color: rgb(255, 255, 255);
-    margin:0px 150px 0px 150px;
+    margin:0px 155px 0px 155px;
     font-family: "sway-variable", sans-serif;
     font-variation-settings: "wght" 500, "CNST" 100;
     font-size: 30px;
@@ -59,7 +63,7 @@ nav{
 .home{
     padding: 100px 100px 100px 100px;
     background-color: rgb(255, 255, 255);
-    margin:0px 150px 0px 150px;
+    margin:0px 155px 0px 155px;
     font-family: "sway-variable", sans-serif;
     font-variation-settings: "wght" 500, "CNST" 100;
     font-size: 30px;
@@ -93,10 +97,16 @@ footer{
     font-size: 80px;
 }
 
+#tote:hover{
+    color:green;
+}
+
 #location{
     text-align: center;
 }
 #needed{
+    text-align: center;
+    text-decoration: underline;
     margin-bottom: 50px;
 }
 #join{
@@ -110,7 +120,7 @@ footer{
 .events{
     padding: 100px;
     background-color: rgb(255, 255, 255);
-    margin:0px 200px 0px 200px;
+    margin:0px 150px 0px 150px;
 }
 
 
