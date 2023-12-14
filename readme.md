@@ -12,7 +12,7 @@ The food festival in partnership with the San Francisco Marin Foodbank will have
 https://www.figma.com/file/S8q7k0ZcYqq0nXQWuGPluo/Figma-basics?type=design&node-id=1669%3A162202&mode=design&t=JY4ig15rVHRGoJSR-1
 
 # Technical Details
-assets
+<h6>assets<h6>
 Live Music Photo
 https://unsplash.com/photos/person-playing-acoustic-guitar-8RVAHTAuC04
 
@@ -25,9 +25,9 @@ https://unsplash.com/photos/red-tomato-lot-on-blue-baskets-SAPvKo12dQE
 Herb Planting Workshop Photo
 https://unsplash.com/photos/brown-and-green-plant-in-brown-clay-pot-TQz9dftU1Kk
 
-fonts
+<h6>fonts<h6>
 Sway Variable by Mark Caneso
 https://fonts.adobe.com/fonts/sway-variable
 
-development
+<h6>development<h6>
 Each image was altered and redesigned through Adobe Illustrator and Photoshop. 
