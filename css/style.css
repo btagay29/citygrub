@@ -1,22 +1,24 @@
-*{
-    margin:0;
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
 }
 
-html{
+html {
     background-image: url(../img/fdfstvlbckground2.png);
     background-position: center;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-a:hover{
+a:hover {
     color: white;
 }
 
-li{
+li {
     font-family: "sway-variable", sans-serif;
     font-variation-settings: "wght" 1000, "CNST" 100;
     font-size: 30px;
@@ -26,29 +28,54 @@ li{
     align-content: center;
 }
 
-nav{
+nav {
     padding-top: 70px;
     padding-bottom: 20px;
     text-align: center;
-    
+
 }
 
-.logo{
+.logo {
     margin-bottom: 20px;
 }
 
-.logo:hover{
+.logo:hover {
     transform: scale(1.2);
 }
 
-footer{
+footer {
     padding: 100px;
 }
 
-.about{
+#home {
+    display: flex;
+    align-content: center;
+    padding: 100px 20px 100px 20px;
+    margin: 0px 100px 0px 100px;
+}
+
+#home:hover {
+    transform: scale(1.2);
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+}
+
+#home1 {
+    padding: 0px 20px 100px 20px;
+    margin: 0px 100px 0px 100px;
+    font-family: "sway-variable", sans-serif;
+    font-variation-settings: "wght" 500, "CNST" 100;
+    font-size: 5.625em;
+    display: flex;
+}
+
+.about {
     padding: 100px 100px 100px 100px;
     background-color: rgb(255, 255, 255);
-    margin:0px 155px 0px 155px;
+    margin: 0px 155px 0px 155px;
     font-family: "sway-variable", sans-serif;
     font-variation-settings: "wght" 500, "CNST" 100;
     font-size: 20px;
@@ -57,90 +84,100 @@ footer{
     text-align: justify;
 }
 
-.events{
+.events {
     padding: 100px 100px 100px 100px;
     background-color: rgb(255, 255, 255);
-    margin:0px 155px 0px 155px;
+    margin: 0px 155px 0px 155px;
     font-family: "sway-variable", sans-serif;
     font-variation-settings: "wght" 500, "CNST" 100;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 60px;
 }
 
-.shop{
+.shop {
     padding: 100px 100px 100px 100px;
     background-color: rgb(255, 255, 255);
-    margin:0px 155px 0px 155px;
+    margin: 0px 155px 0px 155px;
     font-family: "sway-variable", sans-serif;
     font-variation-settings: "wght" 500, "CNST" 100;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 60px;
     text-indent: 50px;
     text-align: justify;
 }
 
-#cbnsfm{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#threeday{
-    margin-bottom:50px;
-}
-
-#join{
+#cbnsfm {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#program{
+#threeday {
     margin-bottom: 50px;
 }
 
-#needed{
+#join {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#program {
+    margin-bottom: 50px;
+}
+
+#needed {
     text-align: center;
     text-decoration: underline;
     margin-bottom: 50px;
 }
 
-#sfstate{
-    margin-bottom:50px;
-} 
+#sfstate {
+    margin-bottom: 50px;
+}
 
-#sfstate>a{
+#sfstate>a {
     text-decoration: underline;
 }
 
-#location{
+#location {
     text-align: center;
 }
 
-#tote{
+#tote {
     text-align: center;
     text-decoration: underline;
     font-size: 80px;
 }
 
-#tote:hover{
-    color:green;
+#tote:hover {
+    color: green;
 }
 
 
-#events1{
-    display: flex;  
-  }
-
-#sum1{
-    margin-bottom: 50px;
-}
-
-#events2{
+#events1 {
     display: flex;
 }
 
-#events3{
+#sum1 {
+    margin-bottom: 50px;
+}
+
+#events2 {
+    display: flex;
+}
+
+#events3 {
     display: flex;
     margin-bottom: 50px;
+}
+
+@media screen and (max-width:2000px) {
+    #home1 {
+        font-size: 400%;
+    }
+
+    #home img {
+        width: 100%;
+    }
 }
